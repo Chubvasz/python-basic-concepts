@@ -8,7 +8,7 @@ print (squares[-3:])
 print ()
 
 cubes = [1, 8, 27]
-cubes.append(64)
+cubes.append(64) # append agrega elementos al array
 print (cubes)
 print (len(cubes))
 

@@ -12,7 +12,7 @@ print ('Hello, ' + name.capitalize() + ' ' + last_name.capitalize())
 
 #otras formas de concatenar
 output0 = 'Hello, {} {}'.format(name, last_name)
-output1 = 'Hello, {0} {1}'.format(name, last_name)
+output1 = 'Hello, {0} {1}'.format(name, last_name) #el indice {0} o {1} hace referencia a la posicion de la variable en .format
 output2 = f'Hello, {name} {last_name}' # Solo para python 3+
 print (output0)
 print (output1)
@@ -36,10 +36,10 @@ print (len(length))
 
 texto = 'Hola como estás'
 # como obtener fragmentos de un texto
-print (texto[1])
+print (texto[1]) # obtiene la letra en la posicion 2 empezando a contar desde 0
 print (texto[3])
-print (texto[len(texto)-1])
-print (texto[-1])
-print (texto[2:5])
-print (texto[:3])
-print (texto[-4:])
+print (texto[len(texto)-1]) #obtiene la ultima letra
+print (texto[-1]) #Otra forma de obtener la ultima letra
+print (texto[2:5]) # obtiene el rango de 2 a 5
+print (texto[:3]) # obtiene el rango de 0 a 3
+print (texto[-4:]) # obtiene las ultimas 4 letras
